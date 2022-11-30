@@ -1,0 +1,13 @@
+ table, th, td {
+  border-collapse:separate;
+  border: 2.5px pink solid;
+ }
+body{
+  text-align:center;
+}
+
+table{
+  margin:auto;
+}
+color:lightblue
+

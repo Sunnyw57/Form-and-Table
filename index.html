@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>Tables & Forms</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+  <h4>Tables and Forms</h4>
+</header>
+
+  <section>
+    <H3>Tables</H3>
+    <table class="classTable">
+  
+  <caption>Top 3 Favorite Things</caption>
+  <tr>
+        <th>Music</th>
+        <th>Foods</th>
+        <th>Sports</th>
+      </tr>
+      <tr>
+        <td>Confident</td>
+        <td>Sushi</td>
+        <td>Soccer</td>
+      </tr>
+
+      <tr>
+        <td>So Sick</td>
+        <td>Fried Rice</td>
+        <td>Basketball</td>
+      </tr>
+    </table>
+</section>
+
+  <h2>Forms</h2>
+    <form action="https://formspree.io/f/xwkzzvng"
+  method="POST">
+      <label for="name">Name</label>
+      <input required name="name" id="name" type="text" placeholder="Enter your name">
+      <br>
+      <label for="height">Height</label>
+      <input name="height" id="height" type="text" placeholder="Enter your height">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" id="password">
+      <br>
+      <p>Pick your top subjects:</p>
+      <label for="math">Math</label>
+      <input type="radio" id="math" name="subject" value="1">
+      
+      <br>
+      <label for="english">English</label>
+      <input type="radio" id="english" name="subject" value="2">
+
+      <br>
+      <label for="science">Science</label>
+      <input type="radio" id="science" name="subject" value="3">
+
+      <br>
+      <label for="Email">Email</label>
+      <input type="month" id="date" name="date">
+      <br>
+      <fieldset>
+        <legend>Caption for fieldset</legend>
+        <label for="slider">Range (Slider)
+          <input type="range" min="1" max="100" id="slider" name="slider" value="75" />
+      <br>
+      <label for="Happiness">Happiness Meter:</label>
+      <meter id="happiness" name="happiness" value="75" min="1" max="100"></meter>
+      <br>
+      <label for="rating">Rating</label>
+          <input type="number" min="0" max="200" steps="10" id="rating"
+name="rating" value="100">
+      <br>
+      <label for="superpower">Pick your super power</label>
+      <select id="superpower" name="superpower">
+        <option value="0">--select an option--</option>
+        <option value="1">Super Strength</option>
+        <option value="2">Invisibility</option>
+        <option value="3">Teleportation</option>
+      </select>
+      </fieldset>
+      <br>
+      <label>
+        Your message:
+        <textarea id="message" name="message">Type your message</textarea>
+      </label>
+      <input type="submit" value="SUBMIT">
+      <figure>
+        <img src="data:image/jpeg;base64,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"
+        <figcaption>Image Caption</figcaption>
+      </figure>
+    </form>
+  </section>
+  
+</body>
+
+</html>
+     
